@@ -12,7 +12,7 @@ echo -e "jangan karakter singkat seperti: sg, id, hk,"
 echo -e "kalau bisa 1 kata yang unik dengan dikombinasikan dengan angka"
 echo -e "contoh: resa11"
 echo -e ""
-echo -e "\e[32msubdomain\e[0m.jawa.software"
+echo -e "\e[32msubdomain\e[0m.dmafiadc.xyz"
 read -p "Mau subdomain apa?( 1kata ) : " sub
 if [[ $sub == "" ]]; then
 clear
@@ -20,9 +20,9 @@ echo -e "${EROR} No Input Detected !"
 exit 1
 fi
 DOMAIN=jawa.software
-SUB_DOMAIN=${sub}.jawa.software
-CF_ID=resaananta42@gmail.com
-CF_KEY=821d599ff7aeafbf73230ba3ac2f238f438f3
+SUB_DOMAIN=${sub}.dmafiadc.xyz
+CF_ID=muzakie624@gmail.com
+CF_KEY=
 set -euo pipefail
 IP=$(curl -sS ifconfig.me);
 echo "Updating DNS for ${SUB_DOMAIN}..."
