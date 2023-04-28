@@ -29,7 +29,9 @@
 wget -q -O /root/marzban/xray_config.json "https://raw.githubusercontent.com/Muzakie-ID/MarXray/main/xray_config.json"
 ```
 ```html
-  system
+  servie nginx restart
+```
+```html
 docker compose up -d
 ```
 * Ganti Domain Anda
