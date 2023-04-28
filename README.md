@@ -26,13 +26,13 @@
   rm -r xray_config.json
 ```
 ```html
-wget -q -O /root/marzban/xray_config.json "https://raw.githubusercontent.com/Muzakie-ID/MarXray/main/xray_config.json"
+  wget -q -O /root/marzban/xray_config.json "https://raw.githubusercontent.com/Muzakie-ID/MarXray/main/xray_config.json"
 ```
 ```html
   servie nginx restart
 ```
 ```html
-docker compose up -d
+  docker compose up -d
 ```
 * Ganti Domain Anda
 ```html
