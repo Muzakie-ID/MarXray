@@ -19,7 +19,7 @@ clear
 echo -e "${EROR} No Input Detected !"
 exit 1
 fi
-DOMAIN=jawa.software
+DOMAIN=dmafiadc.xyz
 SUB_DOMAIN=${sub}.dmafiadc.xyz
 CF_ID=muzakie624@gmail.com
 CF_KEY=
